@@ -1,0 +1,63 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel} %TODO
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{subcaption}
+
+%\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Def - begin
+%TODO
+\def\name{Romain Vanden Bulcke}
+\def\matricule{\texttt{1971718}}
+\def\coursename{Programmation Mathématique I}
+\def\courselabel{MTH6403}
+\def\hwkname{Partie II - Optimisation  Non-Linéaire}
+\def\session{Automne 2018}
+\def\datereturn{26 Octobre  2018}
+\def\prof{Charles Audet}
+\def\school{Ecole Polytechnique de Montréal}
+\def\logo{pics/polytechnique_genie_gauche_eng_rgb.png}
+
+\newtheorem{theorem}{Théorème}[section]
+\newtheorem{theorem}{Lemme}[section]
+\newtheorem{theorem}{Proposition}[section]
+%TODO
+
+% Operators and title
+\def\ie{\textit{i.e. }}
+\def\tabsize{4}
+\DeclareMathOperator{\argmax}{arg\max}
+\DeclareMathOperator{\vect}{\text{vect}}
+\DeclareMathOperator{\tab}{\hspace{\tabsize mm}}
+\author{\name}
+\title{\courselabel - \coursename : \hwkname}
+% Print title - begin
+\def\printitle{
+\begin{center}
+{\huge \courselabel - \coursename}\\
+{\LARGE \hwkname}\\
+\end{center}
+\hrulefill
+}
+% Print title - end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ending
+\def\ending{
+\noindent\hfil\rule{0.75\textwidth}{.4pt}\hfil}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document - begin
